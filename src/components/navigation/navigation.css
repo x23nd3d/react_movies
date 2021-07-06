@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    padding-top: 2.5rem;
+    padding-right: 3rem;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+.navbar-nav-link {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+}

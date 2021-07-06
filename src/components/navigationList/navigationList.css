@@ -1,0 +1,22 @@
+.navlist {
+    display: flex;
+}
+
+.navlist-item {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Montserrat, sans-serif;
+    padding: 34px;
+    width: 14rem;
+}
+
+.nav-date {
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+}
+
+.nav-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}

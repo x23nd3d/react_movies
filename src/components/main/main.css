@@ -1,0 +1,84 @@
+.top-panel {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.middle-panel {
+    padding-bottom: 10rem;
+}
+
+
+.bottom-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.greet {
+    padding-top: 12rem;
+}
+
+.greet-big {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.greet-descr {
+    color: white;
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 3rem;
+    width: 31%;
+}
+
+.footer-nav {
+    display: flex;
+    padding: 0;
+}
+
+.footer-navbar-link {
+    padding: 10px;
+}
+
+.rectangle {
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 33rem;
+    bottom: 28rem;
+    width: 9rem;
+    height: 9rem;
+    transition: .2s;
+    box-shadow: -19px 12px 9px 0px #00000085;
+}
+
+.rectangle-item {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-left: 80px solid white;
+    border-bottom: 45px solid transparent;
+    transition: .2s;
+}
+
+.rectangle:hover  {
+    cursor: pointer;
+    border-color: #c8c7c7;
+    transform: scale(0.9);
+    box-shadow: -20px -14px 19px 9px #00000085;
+
+}
+
+.rectangle:hover .rectangle-item  {
+    border-top: 40px solid transparent;
+    border-left: 75px solid #c8c7c7;
+    border-bottom: 40px solid transparent;
+}

@@ -1,0 +1,32 @@
+.main-part {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line-1 {
+    width: 8px;
+    height: 35px;
+    background-color: white;
+    display: block;
+
+}
+
+.line-2 {
+    width: 8px;
+    height: 45px;
+    background-color: white;
+    display: block;
+    margin-left: 15px;
+
+}
+
+.line-3 {
+    width: 8px;
+    height: 30px;
+    background-color: white;
+    display: block;
+    margin-left: 15px;
+
+}
