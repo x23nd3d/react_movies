@@ -23,14 +23,16 @@ const NavigationListItem = ({ date, title, description }) => {
     const wordLength = description.length < 30 ? "100%" : "75%"
 
     return (
-        <div className="navlist-item">
+            <div className="navlist-item">
                 <p className="nav-date">{date}</p>
                 <p className="nav-title">{title}</p>
                 <p style={{
                     fontFamily: 'Georgia, sans-serif',
                     fontStyle: 'italic',
-                    width: wordLength
+                    width: wordLength,
+                    height: 35
                 }}>{description}</p>
         </div>
+
     )
 }

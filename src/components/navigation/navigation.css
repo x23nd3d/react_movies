@@ -6,6 +6,7 @@
 
 .navbar-nav {
     display: block;
+    transition: .5s;
 }
 
 .navbar-nav-link {
@@ -14,4 +15,12 @@
     font-size: 16px;
     text-decoration: none;
     padding: 10px;
+    transition: .5s;
+}
+
+.navbar-nav:hover {
+    transform: scale(1.2);
+}
+.navbar-nav:hover .navbar-nav-link{
+    text-shadow: -5px -5px 4px white;
 }

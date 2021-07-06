@@ -1,0 +1,20 @@
+.footer-nav {
+    display: flex;
+    padding: 0 0 1rem 0;
+
+}
+.footer-navbar {
+    transition: .5s;
+}
+
+.footer-navbar-link {
+    padding: 10px;
+    transition: .5s;
+}
+
+.footer-navbar:hover {
+    transform: scale(1.2);
+}
+.footer-navbar:hover .footer-navbar-link {
+    text-shadow: -5px -5px 4px white;
+}

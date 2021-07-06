@@ -10,6 +10,24 @@
     width: 14rem;
 }
 
+.navlist-item::after {
+    content: '';
+    display: table;
+    background-color: #383434;
+    padding: 2px;
+    width: 100%;
+    transition: .5s;
+}
+
+.navlist-item:hover {
+    cursor: pointer;
+}
+
+.navlist-item:hover.navlist-item::after  {
+    background-color: white!important;
+
+}
+
 .nav-date {
     font-family: Georgia, sans-serif;
     font-style: italic;
@@ -19,4 +37,8 @@
     font-size: 24px;
     font-weight: 600;
     margin: 0;
+}
+
+.navnav {
+    display: block;
 }

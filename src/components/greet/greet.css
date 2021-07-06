@@ -1,0 +1,20 @@
+.greet {
+    padding-top: 12rem;
+}
+
+.greet-big {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.greet-descr {
+    color: white;
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 3rem;
+    width: 31%;
+}

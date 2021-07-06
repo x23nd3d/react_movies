@@ -1,8 +1,20 @@
-.main-part {
+.hamburger {
     position: absolute;
     top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 11;
+}
+
+.main-part {
+    display: block;
+    width: 40px;
+    height: 50px;
+    transition: .5s;
+}
+
+.main-part:hover {
+    cursor: pointer;
 }
 
 .line-1 {
@@ -10,7 +22,7 @@
     height: 35px;
     background-color: white;
     display: block;
-
+    transition: .5s;
 }
 
 .line-2 {
@@ -19,7 +31,7 @@
     background-color: white;
     display: block;
     margin-left: 15px;
-
+    transition: .5s;
 }
 
 .line-3 {
@@ -28,5 +40,94 @@
     background-color: white;
     display: block;
     margin-left: 15px;
+    transition: .5s;
+}
 
+
+.main-part:hover .line-1 {
+    height: 40px;
+    background-color: white;
+    display: block;
+}
+
+.main-part:hover .line-2 {
+    height: 25px;
+    background-color: white;
+    display: block;
+}
+
+.main-part:hover .line-3 {
+    height: 15px;
+    background-color: white;
+    display: block;
+}
+
+.hamburger__hovered {
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hamburger__hovered-link {
+    color: #fff;
+    font-size: 72px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.hamburger__hovered-item {
+    margin: 1rem;
+}
+
+.hamburger__hovered-list {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hamburger__hovered-link:hover {
+    text-shadow: -7px -3px 6px #ffffffb5;
+}
+
+.hamburger__hovered-close {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*right: 32px;*/
+    /*top: 32px;*/
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+    z-index: 15;
+    margin-top: 12rem;
+    transition: .4s;
+}
+.hamburger__hovered-close:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.hamburger__hovered-close:before, .hamburger__hovered-close:after {
+    position: absolute;
+    content: ' ';
+    height: 43px;
+    width: 2px;
+    background-color: #333;
+}
+.hamburger__hovered-close:before {
+    transform: rotate(45deg);
+}
+.hamburger__hovered-close:after {
+    transform: rotate(-45deg);
+}
+
+.ham_off {
+    display: none;
 }

@@ -4,7 +4,7 @@ import './button.css';
 const Button = ({href, text}) => {
     return (
         <div className="main-btn">
-            <a href={href}>{text}</a>
+            <a className="main-btn-link" href={href}>{text}</a>
         </div>
     )
 }
